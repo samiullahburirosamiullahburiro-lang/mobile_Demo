@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+	/*section product grid*/
+   
+	/*sectionn heading*/
+
+	/*section product grid*/
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 60px;
+      justify-content: flex-start;
+      padding: 20px;
+    }
+    /*section product card*/
+    .product-card{
+		height: 370px;
+      width: 160px;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      background: lightgrey;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+	  transition: transform 0.3s ease;
+	}
+	.product-card{
+background: rgba(255,255,255,0.15);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255,255,255,0.2);
+border-radius: 20px;
+padding: 20px;
+color: white;
+box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+
+	}
+    /*section image */
+    .product-card img {
+      object-fit: cover;
+      width: 100%;
+      height: 250px;
+      border-radius: 8px;
+    }
+    /* section heading 3*/
+    .product-card h3 {
+      margin: 15px 0 10px 0;
+      font-size: 18px;
+    }
+    /*section paragraf */
+    .product-card p {
+      color: #333;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    /*section button */
+    .product-card button {
+
+	 background-color: lightblue;
+    margin-bottom: 15px;
+     
+    }
+    
+   .product-card:hover {
+    transform: translate(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+    /*section media Qury*/
+    @media (max-width: 600px) {
+      .product-card {
+        width: 100%;
+      }
+    }
+     .navbar {
+            background-color: #667eea;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 30px;
+            font-size: 20px;
+        }
+        .container {
+            padding: 40px;
+            text-align: center;
+        }
+	      
+            </style>
+</head>
+  <div class="navbar">
+		<a href="Index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="product.html">Product</a>
+		<a href="Contact.html">Contact Us</a>
+    </div>
+
+<body style="background-color: lightskyblue;">
+    <h1 style="text-align: center; color:yellow;">Welcome to Samiullah's Mobile Shop</h1>
+    <p style="text-align: center;"><b>Here We Provide Best Quality Product </p>
+
+   
+
+    <section class="product-grid">
+        <div class="product-card">
+            <img src="Images/og.jpg" alt="product1">
+            <h3>Available All Model OG Glass</h3>
+        </div>
+
+<div class="product-card">
+    <img src="Images/OIP (2).jfif" alt="product1">
+    <h3>Available All types of Earburds</h3>
+</div>
+
+<div class="product-card">
+    <img src="Images/bages.webp" alt="product1">
+    <h3>Available All types of Powerbank</h3>
+</div>
+
+<div class="product-card">
+    <img src="Images/Mobile Stand.jfif" alt="product1">
+    <h3>Available All types of Mobile Stand</h3>
+</div>
+
+<div class="product-card">
+    <img src="Images/Charger1.jpg" alt="product1">
+    <h3>Available All types of Charger</h3>
+</div>
+
+    </section>
+
+
+
+</body>
+</html>

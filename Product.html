@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+<title>Product </title>
+<link rel="stylesheet" href="CSS/product.css">
+ <style>
+
+	/*sectionn heading*/
+
+	/*section product grid*/
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 60px;
+      justify-content: flex-start;
+      padding: 20px;
+    }
+    /*section product card*/
+    .product-card{
+		height: 370px;
+      width: 170px;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      background: lightgrey;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+	  transition: transform 0.3s ease;
+	}
+	.product-card{
+background: rgba(255,255,255,0.15);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255,255,255,0.2);
+border-radius: 20px;
+padding: 20px;
+color: white;
+box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+
+	}
+    /*section image */
+    .product-card img {
+      object-fit: cover;
+      width: 100%;
+      height: 200px;
+      border-radius: 8px;
+    }
+    /* section heading 3*/
+    .product-card h3 {
+      margin: 15px 0 10px 0;
+      font-size: 18px;
+    }
+    /*section paragraf */
+    .product-card p {
+      color: #333;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    /*section button */
+    .product-card button {
+
+	 background-color: lightblue;
+    margin-bottom: 15px;
+     
+    }
+    
+   .product-card:hover {
+    transform: translate(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+    /*section media Qury*/
+    @media (max-width: 600px) {
+      .product-card {
+        width: 100%;
+      }
+    }
+	        body {
+				background-image:url(Images/bagr.png) ;
+            background-color: #1a1a1a;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #f0f0f0;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 30px;
+            font-size: 18px;
+        }
+        .container {
+            padding: 40px;
+            text-align: center;
+        }
+    
+  </style>
+
+<body>
+
+    <div class="navbar">
+		<a href="Index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="product.html">Product</a>
+		<a href="Contact.html">Contact Us</a>
+    </div>
+
+ <section class="product-grid">
+		<!--section div-->
+    <div class="product-card">
+		<!--section product image-->
+		<img src="Images/Powerbank.jfif" alt="product1">
+		<!--section product name -->
+      <p>Powerbank</p>
+	  <!--section product price -->
+      <h3>price:3000</h3>
+	  <button onclick="alert(3000)">Add to card </button>
+	  </div>
+<div class="product-card">
+	<img src="Images/Charger.jfif" alt="product1">
+	<p>Charger</p>
+	<h3>Price:1500 </h3>
+	<button ondblclick="alert(1500)">Add to card</button>
+
+</div>
+<div class="product-card">
+	<img src="Images/Headphone.png" alt="product1">
+	<p>Headphone</p>
+	<h3>Price:350</h3>
+	<button onclick="alert(350)">Add to Card </button>
+</div>
+<div class="product-card">
+	<img src="Images/Mobile Stand.jfif" alt="product1">
+	<p>Mobile Stand</p>
+	<h3>Price:750</h3>
+	<button onclick="alert(750)">Add to card </button>
+</div>
+
+		<!--section div-->
+    <div class="product-card">
+		<!--section product image-->
+		<img src="Images/og.jpg" alt="product1">
+		<!--section product name -->
+      <p>OG Glass</p>
+	  <!--section product price -->
+      <h3>Price: 250</h3>
+	  <button onclick="alert(250)">Add to card </button>
+	  </div>
+<div class="product-card">
+	<img src="Images/Headphone Voofer.jfif" alt="product1">
+	<p>Headphone</p>
+	<h3>Price:1800 </h3>
+	<button ondblclick="alert(1800)">Add to card</button>
+
+</div>
+<div class="product-card">
+	<img src="Images/OIP (2).jfif" alt="product1">
+	<p>Earburds</p>
+	<h3>Price:2500</h3>
+	<button onclick="alert(2500)">Add to Card </button>
+</div>
+<div class="product-card">
+	<img src="Images/Mini Speaker.jpg" alt="product1">
+	<p>Mini Speaker</p>
+	<h3>Price:1500</h3>
+	<button onclick="alert(1500)">Add to card </button>
+</div>
+		<!--section div-->
+    <div class="product-card">
+		<!--section product image-->
+		<img src="Images/Headphone Type-C.jfif" alt="product1">
+		<!--section product name -->
+      <p>Type-C Headphone</p>
+	  <!--section product price -->
+      <h3>Price:700</h3>
+	  <button onclick="alert(700)">Add to card </button>
+	  </div>
+<div class="product-card">
+	<img src="Images/DN-Alive.jpg" alt="product1">
+	<p>DN-ALIVE Charger</p>
+	<h3>Price: 3500 </h3>
+	<button ondblclick="alert(3500)">Add to card</button>
+
+</div>
+<div class="product-card">
+	<img src="Images/Powerbank1.jpg" alt="product1">
+	<p>Super Powerbank</p>
+	<h3>Price:4500</h3>
+	<button onclick="alert(4500)">Add to Card </button>
+</div>
+<div class="product-card">
+	<img src="Images/360.jpg" alt="product1">
+	<p>Mobile Stand</p>
+	<h3>Price:1050</h3>
+	<button onclick="alert(1050)">Add to card </button>
+</div>
+		<!--section div-->
+    <div class="product-card">
+		<!--section product image-->
+		<img src="Images/Speaker with Mice.webp" alt="product1">
+		<!--section product name -->
+      <p>Digital Speaker</p>
+	  <!--section product price -->
+      <h3>Price:7500</h3>
+	  <button onclick="alert(7500)">Add to card </button>
+	  </div>
+<div class="product-card">
+	<img src="Images/Charger2.webp"alt="product1">
+	<p>Charger</p>
+	<h3>Price: 2500 </h3>
+	<button ondblclick="alert(2500)">Add to card</button>
+
+</div>
+<div class="product-card">
+	<img src="Images/Cable Type B.jfif" alt="product1">
+	<p>Cable Type-B</p>
+	<h3>Price: 200</h3>
+	<button onclick="alert(200)">Add to Card </button>
+</div>
+
+</html>
+</body>
